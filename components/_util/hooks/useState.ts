@@ -12,6 +12,6 @@ export default function useState<T, R = Ref<T>>(
   function triggerChange(newValue: T) {
     innerValue.value = newValue;
   }
-
+nklnkl
   return [innerValue as unknown as R, triggerChange];
 }
